@@ -1,15 +1,179 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MovieTrailers</title>
+    <meta name="viewport" content="width = 	device-width" initial-scale=1>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-    <h1>AMar</h1>
+    <a name="top_header"></a>
+    <div class="container-fluid">
+        <div class="top_header">
+            <h2>Movie Trailer</h2>
+
+        </div>
+
+
+        <!-- navigation start -->
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#" class="navbar-brand"></a>
+                        </li>
+                    </ul>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+				</button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Trailer</a></li>
+                        <li><a href="#">Relesed</a></li>
+                        <li><a href="#">Latest</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">
+                                <spna class="glyphicon glyphicon-user"></spna>&nbsp SignUp</a>
+                        </li>
+                        <li><a href="#"><span class = "glyphicon glyphicon-log-in"></span>  &nbspLogin</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="main_body container-fluid">
+            <div class="trailer_container row">
+                <div class="trailer_header">
+                    <h1>Trailers</h1>
+                </div>
+                <div class="trailer_content">
+                    <div class="trailer">
+                        <iframe src="https://www.youtube.com/embed/MyCuUr2_hmA" alt="The wall" allowfullscreen controls="" frameborder=""></iframe>
+                        <div class="caption">
+                            The Wall
+                        </div>
+                    </div>
+                    <div class="trailer">
+                        <iframe src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0" allowfullscreen controls=""></iframe>
+                        <div class="caption">
+                            Avengers : The End Game
+                        </div>
+                    </div>
+                    <div class="trailer">
+                        <iframe src="https://www.youtube.com/embed/1roy4o4tqQM" frameborder="0" allowfullscreen controls=""></iframe>
+                        <div class="caption">
+                            Detective Pikachu
+                        </div>
+                    </div>
+                    <div class="trailer">
+                        <iframe src="https://www.youtube.com/embed/q5v7Ch4bxzc" alt="The wall" allowfullscreen controls="" frameborder=""></iframe>
+                        <div class="caption">
+                            SpiderMan : Into the spider-verse
+                        </div>
+                    </div>
+                    <div class="trailer">
+                        <iframe src="https://www.youtube.com/embed/g4Hbz2jLxvQ" frameborder="0" allowfullscreen controls=""></iframe>
+                        <div class="caption">
+
+                        </div>
+                    </div>
+                    <div class="trailer">
+                        <iframe src="https://www.youtube.com/embed/M7XM597XO94" frameborder="0" allowfullscreen controls=""></iframe>
+                        <div class="caption">
+                            Johnwick Chapter 3
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="latest_movies_container">
+                <div class="latest_movies_header">
+                    <h1>Latest Movies</h1>
+                </div>
+                <div class="latest_movies_content">
+                    <div class="latest_movies">
+                        <div>
+                            <a href="#" target="_blank">
+                                <img class="photo" src="img/8xfz4bK-movie-poster-wallpaper.jpg">
+                                <div class="caption">
+                                    Green Lantern
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="latest_movies">
+                        <div>
+                            <a href="#" target="_blank">
+                                <img class="photo" src="img/ALhBOAp-movie-poster-wallpaper.jpg">
+                                <div class="caption">
+                                    Iron Man 3
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="latest_movies">
+                        <div>
+                            <a href="#" target="_blank">
+                                <img class="photo" src="img/ibUxifj-movie-poster-wallpaper.jpg">
+                                <div class="caption">
+                                    twilite saga - new moon
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="latest_movies">
+                        <div>
+                            <a href="#" target="_blank">
+                                <img class="photo" src="img/jCDL6OV-movie-poster-wallpaper.jpg">
+                                <div class="caption">
+                                    300
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="latest_movies">
+                        <div>
+                            <a href="#" target="_blank">
+                                <img class="photo" src="img/whGreSt-movie-poster-wallpaper.jpg">
+                                <div class="caption">
+                                    Tron Legacy
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="latest_movies">
+                        <div>
+                            <a href="#" target="_blank">
+                                <img class="photo" src="img/amqxmoC-movie-poster-wallpaper.jpg">
+                                <div class="caption">
+                                    Sherlock Holmes
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <a id="go_to_top" class="btn btn-info" href="#top_header"><span class = "glyphicon glyphicon-chevron-up"></span></a>
+
+
+
+        </div>
+    </div>
+
 </body>
 
 </html>
